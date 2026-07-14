@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- My Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie Web App</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">MOVIE WEB APP</div>
+      <ul class="menu">
+        <li id="home">Home</li>
+        <li id="now-playing">Now Playing</li>
+        <li id="popular">Popular</li>
+        <li id="top-rated">Top Rated</li>
+        <li id="trending">Trending</li>
+      </ul>
+
+      <input type="text" id="search" placeholder="Search Movie" />
+    </header>
+
+    <section id="hero">
+        <button id="prevHero" class="hero-nav">&#10094</button>
+        <button id="nextHero" class="hero-nav">&#10095</button>
+        <div class="overlay">
+            <div class="hero-content">
+                <span id="hero-rating"></span>
+                <p id="hero-genre"></p>
+                <p id="hero-release"></p>
+                <h1 id="hero-title"></h1>
+                <p id="hero-overview"></p>
+                <div class="hero-buttons">
+                    <button id="watchBtn">▶️ Watch Now</button>
+                    <button id="detailBtn">ℹ️ More Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="movies"></main>
+
+    <!-- My Footer -->
+    <footer>Copyright &copy; Movie Web App 2026</footer>
+
+    <!-- My JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
