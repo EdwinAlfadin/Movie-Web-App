@@ -87,11 +87,11 @@ Jalankan menggunakan Live Server.
 
 ### Home
 
-![Home](assets/home.png)
+![Home](assets/movieWebApp.png)
 
 ### Detail Movie
 
-![Detail](assets/detail.png)
+![Detail](assets/movieDetail.png)
 
 ---
 
