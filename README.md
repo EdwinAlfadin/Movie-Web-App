@@ -1,5 +1,7 @@
 # 🎬 Movie Web App
 
+Live Demo https://edwinalfadin.github.io/Movie-Web-App/
+
 A modern Movie Web App built with HTML, CSS, JavaScript, and The Movie Database (TMDB) API.
 
 ---
